@@ -1,0 +1,17 @@
+<head>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body onload="fetchData()">
+<div class="tabs flex">
+    <button class="tablink active" onclick="showProducts(event, 'men')">Men</button>
+    <button class="tablink" onclick="showProducts(event, 'women')">Women</button>
+    <button class="tablink" onclick="showProducts(event, 'kids')">Kids</button>
+</div>
+<div id="category_container">
+    <div id="men" class="content flex"></div>
+    <div id="women" class="content flex"></div>
+    <div id="kids" class="content flex"></div>
+</div>
+<script src="myscripts.js"></script>
+</body>
